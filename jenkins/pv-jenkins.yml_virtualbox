@@ -7,9 +7,9 @@ spec:
   accessModes:
     - ReadWriteOnce
   capacity:
-    storage: 10Gi
+    storage: 20Gi
   persistentVolumeReclaimPolicy: Retain
   storageClassName: nfs-storage
   nfs:
-    server: 192.168.244.130
+    server: 10.0.2.6
     path: /jenkins-pv
